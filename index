@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Icam Sport Méca - Cagnotte</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#0f172a;
+color:white;
+text-align:center;
+}
+
+header{
+padding:80px 20px;
+}
+
+h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.subtitle{
+font-size:20px;
+opacity:0.8;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:40px 20px;
+}
+
+.card{
+background:#1e293b;
+padding:40px;
+border-radius:12px;
+margin-bottom:30px;
+}
+
+.progress-bar{
+background:#334155;
+height:25px;
+border-radius:20px;
+overflow:hidden;
+margin:20px 0;
+}
+
+.progress{
+background:#22c55e;
+height:100%;
+width:35%;
+}
+
+.amount{
+font-size:18px;
+}
+
+.donate{
+display:inline-block;
+margin-top:25px;
+padding:18px 40px;
+background:#ef4444;
+color:white;
+text-decoration:none;
+font-size:20px;
+border-radius:10px;
+font-weight:bold;
+}
+
+.donate:hover{
+background:#dc2626;
+}
+
+footer{
+margin-top:60px;
+padding:20px;
+font-size:14px;
+opacity:0.7;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Icam Sport Méca</h1>
+<p class="subtitle">Soutenez notre projet étudiant</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Notre projet</h2>
+
+<p>
+Nous sommes une association étudiante de l'ICAM passionnée de mécanique et de sport automobile.
+Nous développons des projets techniques et participons à des événements mécaniques.
+</p>
+
+<p>
+Votre soutien nous permettra de financer :
+</p>
+
+<p>
+🔧 du matériel mécanique<br>
+🏁 des compétitions étudiantes<br>
+🚚 les déplacements de l'équipe
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Objectif de la cagnotte</h2>
+
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+
+<p class="amount">
+3500€ collectés sur 10000€
+</p>
+
+<a class="donate" href="https://www.leetchi.com" target="_blank">
+Faire un don
+</a>
+
+</div>
+
+</div>
+
+<footer>
+Icam Sport Méca • Association étudiante
+</footer>
+
+</body>
+</html>
